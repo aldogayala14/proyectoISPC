@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juguemos</title>
+
+    <!-- Links -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JavaScript -->
+    <script src="/js/script.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/217ae7738d.js" crossorigin="anonymous"></script>
+    <!-- Links -->
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <!-- bootstrap link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="CSS/style.css">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <!-- inicio navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="#">¿Como funciona?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Características</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Complejos deportivos adheridos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quiero adherirme</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                aria-expanded="false">Nosotros</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Quienes somos</a></li>
+                                <li><a class="dropdown-item" href="#">Equipo</a></li>
+                                <li><a class="dropdown-item" href="#">Contacto</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-end">
+                    <button type="button" class="btn btn-outline-primary me-2">Iniciar sesión</button>
+                    <button type="button" class="btn btn-primary">Registrarse</button>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin del navbar -->
+        <div class="textHeader col-md-5" id="">
+            <h1>Reserva tu cancha ahora</h1>
+            <p>Reserva un espacio para jugar con tus amigos al deporte que más les guste en tiempo real, de forma simple
+                y rápida.</p>
+        </div>
+
+        <div class="button">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal"
+                data-whatever="@getbootstrap">Buscar cancha</button>
+        </div>
+
+        <!-- modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- menu section  -->
+    <section class="container-fluid">
+        <div class="row justify-content-center text-center text-white">
+            <h1> Simple, facil y a unos clicks</h1>
+            <p>Busca tu deporte favorito, elige el lugar, la fecha y el horario disponibl, realiza el pago  y a jugar.</p>
+            <div class="col-sm-4">
+                <div class="inner">
+                    <img src="assets/img/padel.jpg" class="card-img-top" alt="...">
+                </div>
+              <div class="card bg-transparent">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Paddel</h5>
+                  <p class="card-text">Encuentra las canchas disponibles en tu zona, compara precios y comparte tu opinion.</p>
+                  <a href="#" class="btn btn-primary">Ver Canchas</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="inner">
+                    <img src="assets/img/futbol-5.jpg" class="card-img-top" alt="...">
+                </div>
+              <div class="card bg-transparent">
+                <div class="card-body text-center ">
+                  <h5 class="card-title">Futbol 5</h5>
+                  <p class="card-text">Encuentra las canchas disponibles en tu zona, compara precios y comparte tu opinion.</p>
+                  <a href="#" class="btn btn-primary">Ver Canchas</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="inner">
+                    <img src="assets/img/hockey.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card bg-transparent">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Hockey</h5>
+                    <p class="card-text">Encuentra las canchas disponibles en tu zona, compara precios y comparte tu opinion.</p>
+                    <a href="#" class="btn btn-primary">Ver Canchas</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+    </section>
+    <!-- menu section fin -->
+
+    <section class="features">
+
+
+    </section>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="js/modals.js"></script>
+</body>
+
+</html>
