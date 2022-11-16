@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-----------FIN HEADER-----------*/
+.header {
+    background: url(../assets/img/cancha.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.textHeader {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    margin-left: 90px;
+    transform: translate(-50%, -50%);
+}
+
+.textHeader h1 {
+    color: green;
+}
+
+.button {
+    position: absolute;
+    top: 55%;
+    margin-left: 80px;
+}
+/*-----------FIN HEADER-----------*/
